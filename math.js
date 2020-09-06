@@ -7,22 +7,17 @@ module.exports = {
     randomIntBetween: randomIntBetween,
 };
 
+
 function euclideanDistance(a, b) {
-	if (a.length != b.length) {
-		throw "Cannot compare points that exist on planes of different dimensions!";
-	}
-
-	var sum = 0;
-
-	for (let i = 0; i < a.length; i++) {
-		pow = 1;
-		for (let j = 0; j < 2; j++) {
-			pow = pow * (b[i] - a[i]);
-		}
-		sum += pow;
-	}
-
-	return Math.sqrt(sum);
+    if (a.length != b.length) {
+        //throw 'Error calculating Euclidean distance. Input vectors must have same number of dimensions!';
+        return Math.infinity;
+    }
+    var sum = 0;
+    for (let i = 0; i < a.length; i++) {
+        sum += Math.pow(b[i] - a[i], 2);
+    }
+    return Math.sqrt(sum);
 }
 
 function rangeOf(data) {
