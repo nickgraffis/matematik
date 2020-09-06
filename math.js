@@ -1,3 +1,12 @@
+module.exports = {
+    euclideanDistance : euclideanDistance,
+    rangeOf : rangeOf,
+    rangesOf: rangesOf,
+    meanDataPoint: meanDataPoint,
+    mean: mean,
+    randomIntBetween: randomIntBetween,
+};
+
 function euclideanDistance(a, b) {
 	if (a.length != b.length) {
 		throw "Cannot compare points that exist on planes of different dimensions!";
