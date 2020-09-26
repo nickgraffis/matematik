@@ -3,7 +3,7 @@ module.exports = {
     mean: mean,
     meanPoint: meanPoint,
     rangeOf: rangeOf,
-    rangesOf: rangesOf
+    rangesOf: rangesOf,
     randomIntBetween: randomIntBetween,
 };
 
