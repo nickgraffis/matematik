@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧮</text></svg>">
+	<title>Matematik.js</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://kit.fontawesome.com/7652f157a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="hero is-fullheight">
+    <div class="hero-head">
+      <nav class="navbar is-transparent is-spaced">
+    		<div class="navbar-brand">
+    			<div class="navbar-item">
+    				<a class="sun" id="brand" onclick="colorMode()">
+    					<span class="fa-stack fa-1x">
+    						<i class="far fa-circle fa-stack-2x sun-icon-border" id="border"></i>
+    					  	<i class="fa fa-sun fa-stack-1x" id="color-mode"></i>
+    					</span>
+    				</a>
+    			</div>
+    		</div>
+        <div class="navbar-end is-hidden-mobile">
+          <div class="navbar-item has-text-weight-semibold"><a id="nick-head" class="sun" href="">🤟 Nick Graffis</a></div>
+        </div>
+    	</nav>
+    </div>
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-6 is-offset-1">
+						<p class="title is-1">
+							<span class="sun" id="title">🧮 🇸🇪 Matematik.js</span> <br><br>
+						</p>
+            <p class="subtitle is-4 pt-4">
+              <code style="padding: 10px;" id="demo" class="language-javascript"></code><br><br>
+              <code style="padding: 10px;" id="demoresult" class="language-javascript"></code>
+            </p>
+						<p class="subtitle is-4 pt-4 is-italic">
+							<span class="sun" id="subtitle">Mathematical helpers for JavaScript in browser or node. </br></br>
+
+							This list is growing and pretty much just helps suit my needs. If I find myself in need of another similar function, I'll add to it. If you'd like to add something to it, please do via pull request.
+            </br></br>
+          I would like to solve many of these mathematical dilemmas myself as I am learning, rather than simply pull in packages that others have made.
+						<br><br>
+          Learn more at <a href="https://github.com/nickgraffis/matematik">github</a>. Pull requests welcome, <a href="https://github.com/nickgraffis/matematik#index-of-functions">index of functions here</a>.</span></p>
+          <nav class="level is-mobile subtitle is-4" style="background-color: #272822; border-radius: 5px;">
+        		<div class="level-left" style="padding: 10px;">
+        			<code class="level-item" style="background-color: #272822;"><span>npm i matematik</span></code>
+        		</div>
+            <code id="copyalert" class="level-item copy-alert">Copied!</code>
+        		<div class="level-right" style="padding-right: 10px;">
+        			<code id="copy" class="copy level-item">copy</code>
+        		</div>
+        	</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  <footer class="footer is-hidden-desktop">
+    <div class="content has-text-centered">
+      <p class="has-text-weight-semibold"><a id="nick-foot" class="sun" href="">🤟 Nick Graffis</a></p>
+    </div>
+  </footer>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.js'></script>
+  <script src="assets/scripts/index.js"></script>
+</body>
+</html>
