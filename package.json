@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/nickgraffis/matematik/issues"
   },
-  "homepage": "https://github.com/nickgraffis/matematik#readme",
+  "homepage": "https://nickgraffis.github.io/matematik/",
   "dependencies": {},
   "files": [
     "node_modules/math.js"
