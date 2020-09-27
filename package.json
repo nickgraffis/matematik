@@ -1,6 +1,6 @@
 {
   "name": "matematik",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple math functions for javascript.",
   "main": "math.js",
   "scripts": {
