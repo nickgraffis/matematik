@@ -11,16 +11,21 @@ color: #242424;
 
 .copy-alert {
     color: #ffdd57;
-        background-color: #272822;
+        background-color: rgb(37,45,67);
         opacity: 0;
 }
 
 .copy {
     border-radius: 4px;
-    background-color: #272822;
+    background-color: rgb(37,45,67);
 color: #ffdd57;
 cursor: pointer;
 padding: 3px;
+}
+
+.npm {
+  background-color: rgb(37,45,67);
+  border-radius: 5px;
 }
 
 .navbar {
