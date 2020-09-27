@@ -1,2 +1,3 @@
-# matematik
-Simple mathematical helpers in JS. 
+## Matematik
+# Mathmatical helpers for JavaScript in browser or node
+Simple mathematical helpers in JS.
