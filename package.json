@@ -20,5 +20,8 @@
   },
   "homepage": "https://github.com/nickgraffis/matematik#readme",
   "dependencies": {
-  }
+  },
+  "files": [
+    "node_modules/math.js"
+  ]
 }
