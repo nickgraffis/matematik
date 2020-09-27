@@ -32,12 +32,14 @@
 				<div class="columns">
 					<div class="column is-6 is-offset-1">
 						<p class="title is-1">
-							<span class="sun" id="title">🧮 🇸🇪 Matematik.js</span> <br><br>
+							<span class="sun" id="title">🧮 🇸🇪 Matematik.js</span> <br>
 						</p>
-            <p class="subtitle is-4 pt-4">
-              <code style="padding: 10px;" id="demo" class="language-javascript"></code><br><br>
-              <code style="padding: 10px;" id="demoresult" class="language-javascript"></code>
-            </p>
+							<div style="background-color: rgb(37,45,67); padding: 15px; border-radius: 15px;">
+								<p class="subtitle is-4 pt-4">
+              <code id="demo" class="language-javascript"></code><br><br>
+              <code id="demoresult" class="language-javascript"></code>
+							            </p>
+						</div>
 						<p class="subtitle is-4 pt-4 is-italic">
 							<span class="sun" id="subtitle">Mathematical helpers for JavaScript in browser or node. </br></br>
 
@@ -46,15 +48,18 @@
           I would like to solve many of these mathematical dilemmas myself as I am learning, rather than simply pull in packages that others have made.
 						<br><br>
           Learn more at <a href="https://github.com/nickgraffis/matematik">github</a>. Pull requests welcome, <a href="https://github.com/nickgraffis/matematik#index-of-functions">index of functions here</a>.</span></p>
-        <pre>  <nav class="level subtitle is-4">
+					<p id="copyalertmobile" class="has-text-centered copy-alert-no-bg subtitle is-4" style="">Copied!</p>
+					<div style="background-color: rgb(37,45,67); padding: 15px; border-radius: 15px;">
+ <nav class="level subtitle is-4 is-mobile">
         		<div class="level-left" style="padding: 10px;">
         			<code class="level-item language-javascript"><span>npm i matematik</span></code>
         		</div>
-            <code id="copyalert" class="level-item copy-alert">Copied!</code>
+            <code id="copyalert" class="level-item copy-alert is-hidden-mobile">Copied!</code>
         		<div class="level-right" style="padding: 10px;">
-        			<code id="copy" class="copy level-item">copy</code>
+        			<code id="copy" class="copy level-item is-hidden-mobile">copy</code>
+							<code id="copymobile" class="copy level-item is-hidden-desktop">copy</code>
         		</div>
-        	</nav></pre>
+        	</nav></div>
 					</div>
 				</div>
 			</div>
@@ -66,6 +71,6 @@
     </div>
   </footer>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.js'></script>
-  <script src="assets/scripts/index.js"></script>
+  <script src="assets/scripts/main.js"></script>
 </body>
 </html>

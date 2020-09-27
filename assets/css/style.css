@@ -4,6 +4,10 @@ footer {
   background-color: #F8FAFF;
 }
 
+pre {
+  background-color: rgb(37,45,67);
+}
+
 .copy:hover {
     background-color: #ffdd57;
 color: #242424;
@@ -12,6 +16,12 @@ color: #242424;
 .copy-alert {
     color: #ffdd57;
         background-color: rgb(37,45,67);
+        opacity: 0;
+}
+
+.copy-alert-no-bg {
+    color: rgb(223, 84, 106);
+    font-family: monospace;
         opacity: 0;
 }
 
