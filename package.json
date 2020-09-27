@@ -2,7 +2,7 @@
   "name": "matematik",
   "version": "1.0.7",
   "description": "Simple math functions for javascript.",
-  "main": "./node_modules/math.js",
+  "main": "math.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,6 @@
   "homepage": "https://nickgraffis.github.io/matematik/",
   "dependencies": {},
   "files": [
-    "node_modules/math.js"
+    "math.js"
   ]
 }
