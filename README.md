@@ -1,4 +1,4 @@
-# 🧮🇸🇪Matematik
+# 🧮 🇸🇪 Matematik
 ## Mathematical helpers for JavaScript in browser or node
 ### Purpose:
 This list is growing and pretty much just helps suit my needs. If I find myself in need of another similar function, I'll add to it. If you'd like to add something to it, please do via pull request.
