@@ -1,6 +1,6 @@
 {
   "name": "matematik",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple math functions for javascript.",
   "main": "./node_modules/math.js",
   "scripts": {
@@ -19,8 +19,7 @@
     "url": "https://github.com/nickgraffis/matematik/issues"
   },
   "homepage": "https://github.com/nickgraffis/matematik#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "node_modules/math.js"
   ]
