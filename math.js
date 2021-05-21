@@ -72,7 +72,7 @@ export function getRandomInt(max, min = 0) {
 * TODO Allow for negative numbers
 * TODO Allow for floating points
 */
-export unction englishify(num){
+export function englishify(num){
   var ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine',
               'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen',
               'seventeen', 'eighteen', 'nineteen'];
