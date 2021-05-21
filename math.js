@@ -1,15 +1,3 @@
-module.exports = {
-    euclideanDistance : euclideanDistance,
-    mean: mean,
-    meanPoint: meanPoint,
-    rangeOf: rangeOf,
-    rangesOf: rangesOf,
-    englishify: englishify,
-    getRandomInt: getRandomInt,
-    dot: dot,
-    zeros: zeros,
-};
-
 /**
 * Create a matrix filled with zeros of a certain height and width
 * @param {Number} columns - integer - 2
